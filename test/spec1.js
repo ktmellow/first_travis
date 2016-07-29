@@ -5,6 +5,6 @@ describe("Addition", function(){
     expect(1+1).to.equal(2)
   });
   it("fails because 1+1 is not 3", function(){
-    expect(1+1).to.equal(2)
+    expect(1+1).to.equal(3)
   });
 });
