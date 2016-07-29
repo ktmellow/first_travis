@@ -1,10 +1,11 @@
 const expect = require("chai").expect
+const app = require('../scripty.js');
 
 describe("Addition", function(){
-  it("adds 1 and 1", function(){
-    expect(1+1).to.equal(2)
+  it("reality check", function(){
+    expect(app.reality_check).to.equal(4)
   });
-  it("fails because 1+1 is not 3", function(){
-    expect(1+1).to.equal(3)
+  it("should fail", function(){
+    expect(reality_check).to.equal(3)
   });
 });
